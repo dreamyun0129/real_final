@@ -8,7 +8,7 @@ body {
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out; }
-  a:hover, a:focus {
+a:hover, a:focus {
     text-decoration: none;
     outline: none; }
 
@@ -50,11 +50,11 @@ main {
 }
 .btf a:link, .btf a:visited {
   color: #7A33AB;
-  text-decoration: underline;
+  text-decoration: none;
   transition: all .2s ease-out;
 }
 .btf a:hover, .btf a:active {
-  color: #4E3690;
+  color: #fff;
   text-decoration: none;
 }
 .btf{
@@ -100,21 +100,6 @@ a.nav-link.btn:hover, a.nav-link.btn:active {
   text-align: center;
   font-size: 105%;
 }
-.main_btn:hover {
-  padding: 0px 30px;
-  background: #f42f2c;
-  z-index: 2;
-  display: inline-block;
-  transition: all 400ms linear;
-  text-align: center;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
-  line-height: 48px;
-  border: 1px solid #f42f2c;
-  border-radius: 5px;
-  transition: all 300ms linear 0s; }
 
 .main_btn{
   background: transparent;
@@ -123,7 +108,6 @@ a.nav-link.btn:hover, a.nav-link.btn:active {
   display: inline-block;
   transition: all 400ms linear;
   text-align: center;
-  color: #fff;
   font-size: 13px;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
@@ -133,6 +117,21 @@ a.nav-link.btn:hover, a.nav-link.btn:active {
   transition: all 300ms linear 0s;
   }
 
+  .main_btn:hover {
+    padding: 0px 30px;
+    background: #f42f2c;
+    z-index: 2;
+    display: inline-block;
+    transition: all 400ms linear;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    line-height: 48px;
+    border: 1px solid #f42f2c;
+    border-radius: 5px;
+    transition: all 300ms linear 0s; }
+
   .about_story_area {
     overflow: hidden; }
 
@@ -141,20 +140,20 @@ a.nav-link.btn:hover, a.nav-link.btn:active {
     align-self: center; }
   .story_inner .story_text {
     max-width: 390px; }
-    .story_inner .story_text h2 {
+  .story_inner .story_text h2 {
       color: #222222;
       font-size: 48px;
       line-height: 54px;
       margin-bottom: 30px; }
-    .story_inner .story_text p {
+  .story_inner .story_text p {
       margin-bottom: 25px; }
-    .story_inner .story_text .main_btn {
+  .story_inner .story_text .main_btn {
       margin-top: 25px; }
   .story_inner .story_img {
     position: relative;
     padding-top: 80px;
     padding-bottom: 80px; }
-    .story_inner .story_img:before {
+  .story_inner .story_img:before {
       content: "";
       background: #f8f8f9;
       position: absolute;
@@ -168,12 +167,12 @@ a.nav-link.btn:hover, a.nav-link.btn:active {
     position: relative;
     padding-top: 80px;
     padding-bottom: 80px; }
-    .story_inner .story_img2 img {
+  .story_inner .story_img2 img {
       position: relative;
       left: -10px;
       width: 80%;
       max-width: none; }
-    .story_inner .story_img2:before {
+  .story_inner .story_img2:before {
       content: "";
       background: #f8f8f9;
       position: absolute;
